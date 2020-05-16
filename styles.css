@@ -1,0 +1,128 @@
+/* LAYOUT */
+
+.wrapper-all {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper {
+  width: 70%;
+}
+.wrapper-best {
+  width: 30%;
+}
+
+/* ======================= */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+
+  /* font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px; */
+  line-height: 16px;
+
+  background-color: #e5e5e5;
+  border: 2px solid #f8f8f8;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  padding: 6px 15px;
+}
+
+.tab {
+  cursor: pointer;
+}
+
+/* joke */
+
+.joke {
+  background-color: #f8f8f8;
+  max-width: 680px;
+  border-radius: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  position: relative;
+}
+
+.joke__inner {
+  padding: 67px 40px 45px 100px;
+}
+
+.joke__id {
+  font-weight: 500;
+  font-size: 10px;
+  margin: 0;
+}
+
+.joke__id span {
+  color: #ababab;
+}
+
+.joke__id a {
+  color: #8ea7ff;
+}
+
+.joke__text {
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 5px;
+  bottom: 23px;
+}
+
+.joke__footer {
+  display: flex;
+  justify-content: space-between;
+  line-height: 24px;
+}
+
+.joke__last-update {
+  font-weight: normal;
+  font-size: 10px;
+  color: #ababab;
+}
+
+.joke__category {
+  padding: 0 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.joke__like {
+  background-image: url('./heardempty.png');
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 17px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.joke__message {
+  background-image: url('./Group.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 67px;
+  left: 40px;
+}

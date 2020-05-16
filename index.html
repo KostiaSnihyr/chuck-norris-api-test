@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper-all">
+      <div class="wrapper">
+        <form>
+          <div class="wrapper">
+            <label for="choice1">
+              <input type="radio" id="choice1" class="radio" name="joke" value="random" />
+              Random
+            </label>
+            <label for="choice2">
+              <input type="radio" id="choice2" class="radio" name="joke" value="category" />
+              From category
+            </label>
+            <div id="tab-wrapper" class="tab-wrapper"></div>
+            <label for="choice3">
+              <input type="radio" id="choice3" class="radio" name="joke" value="search" />
+              Search
+            </label>
+            <div id="text-area-wrapper" class="text-area-wrapper"></div>
+          </div>
+          <div>
+            <button type="submit">Get joke</button>
+          </div>
+        </form>
+        <div id="jokes-wrapper">
+          <!-- <div class="joke">
+            <div class="joke__inner">
+              <p class="joke__id"><span>ID:</span><a href="#"> XNaAxUduSw6zANDaIEab7A</a></p>
+              <p class="joke__text">
+                No one truly knows who's Chuck Norris' real father. No one is biologically strong enough for this. He
+                must've conceived himself.
+              </p>
+              <div class="joke__footer">
+                <span class="joke__last-update">Last update: 1923 hours ago</span>
+                <span class="joke__category">celebrity</span>
+              </div>
+            </div>
+            <div class="joke__outer">
+              <div class="joke__like"></div>
+              <div class="joke__message"></div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="wrapper-best"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="form-listener.js"></script>
+  </body>
+</html>
